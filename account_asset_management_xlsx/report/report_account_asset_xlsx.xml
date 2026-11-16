@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="report_account_asset_xlsx" model="ir.actions.report">
+        <field name="name">Account Asset Report</field>
+        <field name="model">account.asset.xlsx.wizard</field>
+        <field name="report_type">xlsx</field>
+        <field name="report_name">report_account_asset_xlsx</field>
+        <field name="report_file">report_account_asset_xlsx</field>
+        <field name="binding_model_id" ref="model_account_asset_xlsx_wizard"/>
+    </record>
+</odoo>
